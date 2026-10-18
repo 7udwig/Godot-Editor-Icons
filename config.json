@@ -1,0 +1,54 @@
+{
+  "engine": "Godot",
+  "title": "Godot Editor Icons",
+  "accent": "#478CBF",
+  "keyLabel": "Name",
+  "snippets": [
+    {
+      "from": "4.2",
+      "label": "GDScript",
+      "code": "EditorInterface.get_editor_theme().get_icon(\"{name}\", \"EditorIcons\")",
+      "note": "For editor plugins, e.g. return it from _get_plugin_icon(), set button.icon, or pass it to add_custom_type().",
+      "group": "code"
+    },
+    {
+      "from": "4.0",
+      "label": "GDScript",
+      "code": "get_theme_icon(\"{name}\", \"EditorIcons\")",
+      "note": "Call it on any Control inside the editor (plugin, dock, dialog).",
+      "group": "code"
+    },
+    {
+      "from": "3.0",
+      "label": "GDScript",
+      "code": "get_icon(\"{name}\", \"EditorIcons\")",
+      "note": "Call it on any Control inside the editor (plugin, dock, dialog).",
+      "group": "code"
+    },
+    {
+      "group": "code",
+      "from": "4.2",
+      "label": "C#",
+      "code": "EditorInterface.Singleton.GetEditorTheme().GetIcon(\"{name}\", \"EditorIcons\")"
+    },
+    {
+      "group": "code",
+      "from": "4.0",
+      "label": "C#",
+      "code": "GetThemeIcon(\"{name}\", \"EditorIcons\")"
+    },
+    {
+      "group": "code",
+      "from": "3.0",
+      "label": "C#",
+      "code": "GetIcon(\"{name}\", \"EditorIcons\")"
+    }
+  ],
+  "tint": [
+    {
+      "label": "GDScript",
+      "code": "texture_rect.modulate = Color(\"{hex}\")  # or any CanvasItem; multiplies the icon colour"
+    }
+  ],
+  "footer": "Unofficial overview, not affiliated with or endorsed by the Godot Foundation or Godot Engine contributors. The editor icons are &copy; 2014-present Godot Engine contributors and &copy; 2007-2014 Juan Linietsky, Ariel Manzur, released under the <a href=\"LICENSE-GODOT-ICONS.txt\">MIT (Expat) license</a>. Source: <a href=\"https://github.com/godotengine/godot/tree/master/editor/icons\" target=\"_blank\" rel=\"noopener\">godotengine/godot</a>."
+}
