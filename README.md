@@ -1,5 +1,7 @@
 # Godot Editor Icons
 
+**Open the site: <https://7udwig.github.io/Godot-Editor-Icons/>**
+
 A fast, searchable browser for the **editor icons of every stable Godot release** (1.0 – 4.7.2, 74 versions).
 Pick a version, search, change the display size of all icons at once, open an icon to compare it at 16/24/32/48 px on a dark,
 light or checkerboard background, and copy its name or the GDScript line that loads it.
